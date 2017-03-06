@@ -147,7 +147,7 @@ body {
   margin-bottom: 60px;
 }
 .features__feature {
-  padding: 10px;
+  padding: 16px;
   flex: 1;
 }
 @media only screen and (max-width: 600px) {
@@ -159,9 +159,18 @@ body {
   font-size: 17px;
   line-height: 20px;
 }
+.features__feature p {
+  font-size: 14px;
+}
 
-
-
+footer.container {
+  margin: 50px auto;
+}
+.copyright__text {
+  font-size: .75em;
+  color: #9D9CA2;
+  text-align: center;
+}
 
 
 /* ==========================================================================
